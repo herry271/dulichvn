@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Du lịch Việt Nam</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #156064;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      text-align: center;
+      padding: 40px 20px;
+      background-color: #0e3d4f;
+    }
+    header h1 {
+      font-size: 3em;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #ffcc00;
+    }
+    .slide-container {
+      display: flex;
+      overflow-x: auto;
+      gap: 20px;
+      padding: 20px 0;
+    }
+    .slide-container img {
+      height: 200px;
+      border-radius: 8px;
+    }
+    .location {
+      margin-bottom: 60px;
+    }
+    .location p {
+      font-size: 1.1em;
+      line-height: 1.6;
+    }
+    iframe {
+      max-width: 100%;
+      border: none;
+      margin-top: 10px;
+    }
+    .button {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background-color: #ffcc00;
+      color: #000;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #0e3d4f;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <header data-aos="fade-down">
+    <h1>Khám phá Việt Nam</h1>
+    <p>Giới thiệu các điểm đến nổi bật: Đà Nẵng, Nha Trang, Mù Cang Chải</p>
+  </header>
+
+  <section class="location" data-aos="fade-up">
+    <h2>Đà Nẵng</h2>
+    <div class="slide-container">
+      <img src="https://images.unsplash.com/photo-1600840031546-69e5803be9e7" alt="Cầu Rồng">
+      <img src="https://images.unsplash.com/photo-1587271482428-d94363ecfabc" alt="Biển Mỹ Khê">
+      <img src="https://images.unsplash.com/photo-1603698031684-f2f4cf7c40df" alt="Bà Nà Hills">
+    </div>
+    <p>Đà Nẵng được mệnh danh là “thành phố đáng sống nhất Việt Nam” nhờ khí hậu ôn hòa, cảnh đẹp và nhiều địa điểm hấp dẫn như Cầu Rồng, biển Mỹ Khê và Bà Nà Hills.</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Yw7dZ9WgS3Y" allowfullscreen></iframe>
+    <br><a class="button" href="#">Xem thêm</a>
+  </section>
+
+  <section class="location" data-aos="fade-up">
+    <h2>Nha Trang</h2>
+    <div class="slide-container">
+      <img src="https://images.unsplash.com/photo-1553143570-1e03c5ea63ec" alt="Biển Nha Trang">
+      <img src="https://images.unsplash.com/photo-1583095954323-6f591b8d2973" alt="Đảo Nha Trang">
+      <img src="https://images.unsplash.com/photo-1632104377536-cd3c7d0e2d08" alt="Resort Nha Trang">
+    </div>
+    <p>Nha Trang nổi tiếng với biển xanh, cát trắng và các hòn đảo xinh đẹp. Đây là một trong những điểm đến lý tưởng để nghỉ dưỡng và thưởng thức hải sản.</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/HNwC-Tnxr6w" allowfullscreen></iframe>
+    <br><a class="button" href="#">Xem thêm</a>
+  </section>
+
+  <section class="location" data-aos="fade-up">
+    <h2>Mù Cang Chải</h2>
+    <div class="slide-container">
+      <img src="https://images.unsplash.com/photo-1600673674886-bd2a095e9a3b" alt="Ruộng bậc thang">
+      <img src="https://images.unsplash.com/photo-1504307651290-7b66cc5f784e" alt="Cảnh núi non">
+      <img src="https://images.unsplash.com/photo-1619622502847-0ae0495d676e" alt="Lúa chín vàng">
+    </div>
+    <p>Mù Cang Chải nổi bật với những thửa ruộng bậc thang tuyệt đẹp, đặc biệt là vào mùa lúa chín vàng rực rỡ. Đây là điểm đến lý tưởng cho những ai yêu thiên nhiên và văn hóa dân tộc.</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ax0FQij91S8" allowfullscreen></iframe>
+    <br><a class="button" href="#">Xem thêm</a>
+  </section>
+
+  <footer>
+    &copy; 2025 Du lịch Việt Nam. Thiết kế bởi ChatGPT.
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
